@@ -1,0 +1,25 @@
+{
+  "name": "@10up/eslint-json-to-md",
+  "version": "1.0.0",
+  "description": "Convert ESLint JSON report to a Markdown file",
+  "author": {
+    "name": "10up",
+    "email": "opensource@10up.com",
+    "url": "https://10up.com"
+  },
+  "type": "module",
+  "main": "cli.js",
+	"bin": {
+		"eslint-json-to-md": "cli.js"
+	},
+	"files": [
+		"cli.js"
+	],
+  "engines": {
+    "node": ">=12"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "meow": "^10.1.2"
+  }
+}
